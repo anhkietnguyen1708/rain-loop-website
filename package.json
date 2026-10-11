@@ -1,0 +1,22 @@
+{
+  "name": "rainloop-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prepare:pages": "node scripts/render.mjs",
+    "dev": "npm run prepare:pages && vite --host 0.0.0.0",
+    "build": "npm run prepare:pages && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/be-vietnam-pro": "5.2.8",
+    "@fontsource/fraunces": "5.3.0",
+    "@fontsource/unbounded": "5.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "vite": "7.2.2"
+  }
+}

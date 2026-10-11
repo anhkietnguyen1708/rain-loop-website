@@ -1,0 +1,16 @@
+{
+  "tool": "ChatGPT image generation (built-in)",
+  "date": "2026-10-11",
+  "assets": [
+    {
+      "key": "panorama",
+      "transparent_background": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: immersive wide 16:9 landscape background for Vietnamese RainLoop biomimicry website. Create a cinematic editorial photographic-style wetland at dawn, pale warm ivory misty sky occupying upper 55 percent with quiet uninterrupted negative space in upper center for dark website headlines. Lower half: winding calm reflective freshwater channel, dense lush emerald reeds and sedges, grasses and wet green moss in foreground, distant forest in morning haze. Horizon low, exquisite natural fine texture, gentle golden morning light, sophisticated forest green and muted water blue, airy beautiful inviting atmosphere. Natural realistic wetland ecology, no mountains or buildings, no people, no animals, no product, no words, no text, no watermark. This is artistic AI illustration, not a scientific diagram. Compose a high-end nature website background, vegetation framing left and right while calm center remains legible."
+    },
+    {
+      "key": "island",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: transparent cutout nature sculpture for RainLoop editorial website. A visually striking floating miniature wetland island, irregular sculptural mass of earth and weathered pale gray rock thickly covered with luminous emerald moss, dense elegant upright sedge reeds and small green plants atop it, a shallow reflective turquoise pool on top, delicate roots hanging naturally beneath the exposed soil edge. Three-quarter elevated view, asymmetric organic rocky shape, photoreal material textures, lush refined biomimicry art, soft diffuse studio daylight. Wide horizontal sculptural silhouette, island centered with generous transparent space around. Truly transparent background. No background, no shadow on ground, no text, no labels, no geometric arrows, no products, no diagram. This is conceptual art, not technical evidence."
+    }
+  ]
+}

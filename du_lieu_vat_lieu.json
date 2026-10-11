@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Hộp thu & trữ nước",
+    "quantity": 3,
+    "unit": "hộp",
+    "price": 65000,
+    "spec": "Hộp PP tái sử dụng 15–20 lít",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Nắp đục lỗ",
+    "quantity": 3,
+    "unit": "cái",
+    "price": 15000,
+    "spec": "Nắp PP gia công lỗ Ø5 mm",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Sỏi lớn, sỏi nhỏ",
+    "quantity": 4,
+    "unit": "kg",
+    "price": 8000,
+    "spec": "Sỏi lọc rửa sạch",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Cát thô & vải lọc",
+    "quantity": 1,
+    "unit": "bộ",
+    "price": 45000,
+    "spec": "Cát thô và vải lọc",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Ống nối & khớp nối",
+    "quantity": 1,
+    "unit": "bộ",
+    "price": 65000,
+    "spec": "PVC Ø21 và khớp nối xuyên vách",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Van & hố kỹ thuật",
+    "quantity": 1,
+    "unit": "bộ",
+    "price": 65000,
+    "spec": "Van DN15 và hộp kỹ thuật",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Ống tưới đục lỗ",
+    "quantity": 1.5,
+    "unit": "m",
+    "price": 20000,
+    "spec": "PVC Ø21 đục lỗ",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Bồn cây & tấm đế",
+    "quantity": 1,
+    "unit": "bộ",
+    "price": 95000,
+    "spec": "Bồn trồng và tấm đế",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Vật liệu làm kín",
+    "quantity": 1,
+    "unit": "bộ",
+    "price": 48000,
+    "spec": "Keo làm kín và gioăng",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  },
+  {
+    "name": "Dây / vật liệu mao dẫn",
+    "quantity": 1,
+    "unit": "m",
+    "price": 12000,
+    "spec": "Dây thấm, phương án tùy chọn",
+    "estimated": true,
+    "source": "Dự toán tham khảo; chưa xác minh báo giá trực tuyến",
+    "note": "Số lượng dự kiến cho một hệ thống ba hộp; đối chiếu bản vẽ trước khi mua."
+  }
+]

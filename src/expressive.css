@@ -1,0 +1,51 @@
+/* RainLoop: geometric display type meets organic editorial accents. */
+:root{--display:'Unbounded',system-ui,sans-serif;--editorial:'Fraunces',Georgia,serif}
+h1,h2,h3{font-family:var(--display);font-weight:500;letter-spacing:-.045em;line-height:1.5}
+h1 em,h2 em,h3 em{font-family:var(--editorial);font-style:italic;font-weight:500;font-size:1.2em;letter-spacing:-.035em;line-height:1.1;color:#587832}
+.hero h1{font-size:clamp(2.7rem,3.8vw,3.7rem);line-height:1.5;letter-spacing:-.045em}
+.hero h1 em{color:#355d3b}.hero-content{padding-top:170px}
+.page-intro h1{font-size:clamp(2.5rem,4.8vw,4.8rem);line-height:1.48}
+h2{font-size:clamp(1.9rem,2.8vw,2.9rem)}
+.nature-content h2{font-size:clamp(2.2rem,2.8vw,3.1rem);line-height:1.45}
+.body-copy .large-copy{font-family:var(--editorial);font-size:2.1rem;line-height:1.55}
+.journey-band h2{font-size:clamp(2.3rem,3.9vw,4rem);line-height:1.5}
+.research-card .card-content h3{font-size:clamp(1.5rem,2vw,2.1rem);line-height:1.5}
+.research-card .card-back h3{font-size:1.7rem;line-height:1.5}
+.research-card .card-content p.card-ecosystem{font-size:.79rem;line-height:1.8;color:#d7eb8c;margin-bottom:16px}
+.card-ecosystem span{display:block;font-size:.67rem;color:#bbcfc1;margin-top:5px}
+.explore-card h3,.decision-card h3,.submission-grid h3,.member-content h2{font-size:1.2rem;line-height:1.6}
+.nature-content h2,.brand-story h2{line-height:1.5}.brand-story h2{font-size:1.9rem}
+.timeline-item h2{font-size:1.35rem}.timeline-item summary{gap:16px}
+.detail-content h2{font-size:1.6rem;line-height:1.5}.technical-detail h3{font-size:1rem}
+.demo-agenda h3,.test-card h3,.process-notes h3,.mood h3,.mechanisms h3,.drawing-info h3{font-size:1rem;line-height:1.6}
+.hotspot-detail h2{font-size:1.4rem}.next-section h2{font-size:1.5rem;line-height:1.6}
+.page-intro h1,.hero h1{animation:heading-arrival .8s cubic-bezier(.2,.8,.2,1) both}
+.page-intro .lead{animation:copy-arrival .8s .13s both}
+.hero .hero-description{animation:copy-arrival .8s .15s both}
+.hero .button-row{animation:copy-arrival .8s .26s both}
+@keyframes heading-arrival{from{opacity:0;transform:translateY(26px) rotate(-1deg);filter:blur(7px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes copy-arrival{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+
+/* Three staggered water/forest curtains connect actual document navigation. */
+.route-transition{position:fixed;inset:0;z-index:1200;pointer-events:none;visibility:hidden;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:hidden}
+.route-panel{height:115%;transform:translateY(110%);background:#123f35;border-radius:70px 70px 0 0;transition:transform .46s cubic-bezier(.7,0,.2,1)}
+.route-panel:nth-child(2){background:#167d9a;transition-delay:45ms}.route-panel:nth-child(3){background:#d7eb8c;transition-delay:90ms}
+.route-caption{position:absolute;inset:0;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:28px;text-align:center;opacity:0;transition:opacity .2s;pointer-events:none;color:white}
+.route-caption>span{font-size:.65rem;letter-spacing:.15em;background:#123f3599;padding:8px 16px;border-radius:99px}
+.route-caption strong{font-family:var(--display);font-weight:500;font-size:clamp(1.7rem,4vw,3.8rem);line-height:1.6;padding:15px 28px;background:#123f35e6;border-radius:25px;margin-top:15px;max-width:100%}
+.route-caption i{width:58px;height:58px;border:2px solid #ffffff50;border-top-color:white;border-radius:50%;margin-top:28px;animation:route-orbit 1.4s linear infinite}
+.route-preparing .route-transition,.route-arriving .route-transition{visibility:visible;pointer-events:auto}
+.route-leaving .route-panel,.route-arriving .route-panel{transform:translateY(0)}
+.route-leaving .route-caption,.route-arriving .route-caption{opacity:1;transition-delay:.2s}
+.route-arriving .route-panel{transition:none;border-radius:0 0 70px 70px}
+.route-revealing .route-panel{transform:translateY(-115%);transition:transform .55s cubic-bezier(.7,0,.2,1)}
+.route-revealing .route-panel:nth-child(2){transition-delay:45ms}.route-revealing .route-panel:nth-child(3){transition-delay:90ms}
+.route-revealing .route-caption{opacity:0;transition:opacity .2s;transition-delay:0s}
+.route-revealing main{animation:chapter-unfold .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes route-orbit{to{transform:rotate(360deg)}}
+@keyframes chapter-unfold{from{opacity:.4;transform:translateY(24px)}to{opacity:1;transform:none}}
+.motion-paused .route-transition{display:none}.motion-paused .page-intro h1,.motion-paused .page-intro .lead,.motion-paused .hero h1,.motion-paused .hero .hero-description,.motion-paused .hero .button-row{animation:none;opacity:1;transform:none;filter:none}
+@media(max-width:1150px){.hero h1{font-size:3rem}.page-intro h1{font-size:3.1rem}.research-card .card-content h3{font-size:1.6rem}}
+@media(max-width:800px){.hero h1{font-size:2.6rem}.hero-content{padding-top:150px}.hero{height:950px}.page-intro h1{font-size:2.75rem}.nature-content h2{font-size:2.4rem}.research-card .card-back h3{font-size:1.55rem}.route-panel{border-radius:40px 40px 0 0}}
+@media(max-width:560px){.hero{height:960px;min-height:960px}.hero-content{padding-top:130px}.hero h1{font-size:clamp(1.75rem,7.2vw,2.1rem);line-height:1.55}.hero h1>span:last-child{max-width:350px}.hero h1 em{display:inline}.hero-description{margin-top:16px}.hero-discovery{bottom:165px}.page-intro h1{font-size:clamp(1.7rem,7.3vw,2.2rem);line-height:1.55}.nature-content h2{font-size:1.95rem}.journey-band h2{font-size:1.8rem}h2{font-size:1.7rem}.body-copy .large-copy{font-size:1.85rem}.research-card .card-content h3{font-size:1.45rem}.research-card .card-back h3{font-size:1.35rem}.research-card .card-content p.card-ecosystem{font-size:.76rem}.timeline-item h2{font-size:1.06rem}.brand-story h2{font-size:1.5rem}.next-section h2{font-size:1.12rem}.detail-content h2{font-size:1.3rem}.route-caption strong{font-size:1.5rem;padding:14px 20px}.route-caption>span{font-size:.52rem;letter-spacing:.07em}.route-caption i{width:44px;height:44px}}
+@media(prefers-reduced-motion:reduce){.route-transition{display:none!important}.page-intro h1,.page-intro .lead,.hero h1,.hero .hero-description,.hero .button-row,.route-revealing main{animation:none!important;opacity:1;transform:none;filter:none}}
